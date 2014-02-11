@@ -1,14 +1,14 @@
 # config valid only for Capistrano 3.1
 lock '3.1.0'
 
-set :application, 'my_app'
-set :repo_url, 'git@example.com:me/my_app.git'
+set :application, 'dartsduino'
+set :repo_url, 'git@example.com:me/dartsduino.git'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
-# Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/usr/share/nginx/rails/my_app'
+# Default deploy_to directory is /var/www/dartsduino
+set :deploy_to, '/usr/share/nginx/rails/dartsduino'
 
 # Default value for :scm is :git
 # set :scm, :git
