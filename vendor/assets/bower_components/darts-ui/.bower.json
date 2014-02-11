@@ -1,0 +1,30 @@
+{
+  "name": "darts-ui",
+  "version": "0.1.0",
+  "main": "app/scripts/darts-ui.js",
+  "ignore": [
+    ".bowerrc",
+    ".editorconfig",
+    ".gitattributes",
+    ".gitignore",
+    ".jshintrc",
+    "Gruntfile.js",
+    "package.json",
+    "test/**"
+  ],
+  "private": true,
+  "dependencies": {
+    "Snap.svg": "~0.2.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/eqot/darts-ui",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "afdc907d5adcd2491d7a368bb706dbb15f3984eb"
+  },
+  "_source": "git://github.com/eqot/darts-ui.git",
+  "_target": "*",
+  "_originalSource": "eqot/darts-ui"
+}
