@@ -1,7 +1,37 @@
-<%= provide(:title, "x01") %>
+<%= provide(:title, "301") %>
 
 <div class="container">
-  <h1>x01</h1>
+  <div class="col-lg-8">
+    <svg id="darts-ui" width="640" height="640"></svg>
+  </div>
 
-  <svg id="darts-ui" width="640" height="640"></svg>
+  <div class="col-lg-4">
+    <div>
+      <div class="game-title">
+        301
+      </div>
+      <div class="right-pull">
+        <button class="btn btn-primary">Start!</button>
+      </div>
+    </div>
+    <br>
+
+    <table class="table table-bordered">
+      <thead>
+        <tr class="scores scores-title">
+          <td>Player 1</td>
+        </tr>
+      </thead>
+      <tbody>
+        <% @scores.each do |score| %>
+          <tr class="scores scores-score">
+            <td><%= score %></td>
+          </tr>
+        <% end %>
+        <tr class="scores scores-total-score">
+          <td><%= @total_score %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>

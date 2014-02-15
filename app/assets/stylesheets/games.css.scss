@@ -1,3 +1,27 @@
-// Place all the styles related to the Games controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(http://fonts.googleapis.com/css?family=Bowlby+One);
+
+.game-title {
+  font-family: 'Bowlby One', cursive;
+  font-size: 30px;
+}
+
+.scores {
+  font-family: 'Bowlby One', cursive;
+}
+
+.scores-title {
+  font-size: 24px;
+  text-align: center;
+  background-color: #0ff;
+}
+
+.scores-score {
+  font-size: 18px;
+  text-align: right;
+}
+
+.scores-total-score {
+  font-size: 24px;
+  text-align: right;
+}
