@@ -1,5 +1,7 @@
 class GamesController < ApplicationController
   def x01
+    @title = '301'
+
     @scores = []
     10.times do
       @scores.push(0)

@@ -2,19 +2,14 @@
 
 <div class="container">
   <div class="col-lg-8">
+    <div class="game-title">
+      <%= @title %>
+    </div>
     <svg id="darts-ui" width="640" height="640"></svg>
   </div>
 
   <div class="col-lg-4">
-    <div>
-      <div class="game-title">
-        301
-      </div>
-      <div class="right-pull">
-        <button class="btn btn-primary">Start!</button>
-      </div>
-    </div>
-    <br>
+    <button class="btn btn-primary pull-right btn-start">Start!</button>
 
     <table class="table table-bordered">
       <thead>
