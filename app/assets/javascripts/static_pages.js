@@ -1,3 +1,3 @@
 $(function () {
-  var dartsUi = new DartsUi('#darts-ui');
+  window.dartsUi = new DartsUi('#darts-ui');
 });
