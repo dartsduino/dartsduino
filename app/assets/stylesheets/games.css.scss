@@ -24,6 +24,10 @@
 .scores-score {
   font-size: 18px;
   text-align: right;
+
+  .focus {
+    background-color: #fd8;
+  }
 }
 
 .scores-total-score {
