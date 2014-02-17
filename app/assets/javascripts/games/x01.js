@@ -12,6 +12,10 @@ var Games_x01 = function () {
   var totalScore = 301;
   var totalScoreElements = $('.scores-total-score td');
 
+  for (var i = 1; i < scoreElements.length; i++) {
+    $(scoreElements[i]).removeClass(focusClass).text(0);
+  }
+
   $(scoreElements[scoreIndex]).addClass(focusClass);
 
   dartsUi.onHit(function (cellId, point, ratio) {
