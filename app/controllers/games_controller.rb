@@ -3,7 +3,7 @@ class GamesController < ApplicationController
     @title = '301'
 
     @scores = []
-    10.times do
+    12.times do
       @scores.push(0)
     end
 
