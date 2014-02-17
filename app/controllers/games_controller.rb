@@ -1,4 +1,7 @@
 class GamesController < ApplicationController
+  def index
+  end
+
   def x01
     @title = '301'
 

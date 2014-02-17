@@ -4,6 +4,7 @@ RailsBase::Application.routes.draw do
 
   get 'about' => 'static_pages#about'
 
+  get "games" => 'games#index'
   get "games/x01"
 
   # The priority is based upon order of creation: first created -> highest priority.
