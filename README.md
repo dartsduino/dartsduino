@@ -1,16 +1,7 @@
-# Rails base
+# dartsduino
 
-This is a source code based on [Ruby on Rails Tutorial](http://ruby.railstutorial.org/) which contains only fundamental features and settings so that other services can be quickly developed from this code.
+[![dartsduino](http://img.youtube.com/vi/sHt_5in-ziQ/0.jpg)](http://www.youtube.com/watch?v=sHt_5in-ziQ)
 
-## Included features and settings
-
-* Show a home page with a header and footer
-* Enable [devise](https://github.com/plataformatec/devise) for user management
-* Automated test with [RSpec](http://rspec.info/) and [Capybara](https://github.com/jnicklas/capybara) for the home page
-* Enable [guard](https://github.com/guard/guard), [spork](https://github.com/sporkrb/spork-rails), [live reload](https://github.com/guard/guard-livereload) and [Growl](http://growl.info/) for rapid iteration
-* Enable [Google Analytics](http://www.google.com/analytics/)
-* Generate secret token dynamically
-* Enable [EditorConfing](http://editorconfig.org/)
 
 ## License
 
