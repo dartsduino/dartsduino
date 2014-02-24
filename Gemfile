@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 ruby '2.1.0'
-#ruby-gemset=rails_4_0_2
+#ruby-gemset=rails_4_0_3
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.2'
+gem 'rails', '4.0.3'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
@@ -30,6 +30,8 @@ end
 
 group :test do
   gem 'capybara', '2.2.1'
+
+  gem 'factory_girl_rails'
 end
 
 # Use device for account management
@@ -40,6 +42,10 @@ gem 'sass-rails', '~> 4.0.0'
 
 # Use bootstrap-sass for views
 gem 'bootstrap-sass', '~> 3.1.0'
+
+# Use pagenate
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -70,11 +76,16 @@ end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
-
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+group :production do
+  # Use unicorn as the app server
+  gem 'unicorn'
+
+  # Use mysql as the database for Active Record
+  gem 'mysql2'
+
+  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+  gem 'therubyracer', platforms: :ruby
+end
