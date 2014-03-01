@@ -91,4 +91,5 @@ group :production do
 end
 
 # Use dartsduino games
+gem 'dartsduino-games-countup', path: "../dartsduino_games/dartsduino-games-countup"
 gem 'dartsduino-games-x01', path: "../dartsduino_games/dartsduino-games-x01"

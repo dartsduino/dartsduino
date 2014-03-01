@@ -1,4 +1,9 @@
 PATH
+  remote: ../dartsduino_games/dartsduino-games-countup
+  specs:
+    dartsduino-games-countup (0.0.1)
+
+PATH
   remote: ../dartsduino_games/dartsduino-games-x01
   specs:
     dartsduino-games-x01 (0.0.1)
@@ -267,6 +272,7 @@ DEPENDENCIES
   capybara (= 2.2.1)
   childprocess
   coffee-rails (~> 4.0.0)
+  dartsduino-games-countup!
   dartsduino-games-x01!
   devise
   factory_girl_rails
