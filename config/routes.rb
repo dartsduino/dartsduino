@@ -5,7 +5,7 @@ RailsBase::Application.routes.draw do
   get 'about' => 'static_pages#about'
 
   get "games" => 'games#index'
-  get "games/x01"
+  get "games/:id" => 'games#show'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
