@@ -89,3 +89,6 @@ group :production do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', platforms: :ruby
 end
+
+# Use dartsduino games
+gem 'dartsduino-games-x01', path: "../dartsduino_games/dartsduino-games-x01"

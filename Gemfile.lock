@@ -1,3 +1,8 @@
+PATH
+  remote: ../dartsduino_games/dartsduino-games-x01
+  specs:
+    dartsduino-games-x01 (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -262,6 +267,7 @@ DEPENDENCIES
   capybara (= 2.2.1)
   childprocess
   coffee-rails (~> 4.0.0)
+  dartsduino-games-x01!
   devise
   factory_girl_rails
   growl
