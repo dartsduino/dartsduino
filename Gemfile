@@ -65,9 +65,6 @@ gem 'jquery-turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-# Use bower-rails to load external packages with bower
-gem "bower-rails"
-
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
@@ -89,6 +86,9 @@ group :production do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', platforms: :ruby
 end
+
+# Use darts-ui
+gem 'darts-ui', path: "../dartsduino_games/darts-ui"
 
 # Use dartsduino games
 gem 'dartsduino-games-countup', path: "../dartsduino_games/dartsduino-games-countup"
