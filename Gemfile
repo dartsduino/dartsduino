@@ -88,8 +88,8 @@ group :production do
 end
 
 # Use darts-ui
-gem 'darts-ui', path: "../dartsduino_games/darts-ui"
+gem 'darts-ui', path: "../darts-ui"
 
 # Use dartsduino games
-gem 'dartsduino-games-countup', path: "../dartsduino_games/dartsduino-games-countup"
-gem 'dartsduino-games-x01', path: "../dartsduino_games/dartsduino-games-x01"
+gem 'dartsduino-games-countup', path: "../dartsduino-games-countup"
+gem 'dartsduino-games-x01', path: "../dartsduino-games-x01"

@@ -1,15 +1,15 @@
 PATH
-  remote: ../dartsduino_games/darts-ui
+  remote: ../darts-ui
   specs:
     darts-ui (0.0.1)
 
 PATH
-  remote: ../dartsduino_games/dartsduino-games-countup
+  remote: ../dartsduino-games-countup
   specs:
     dartsduino-games-countup (0.0.1)
 
 PATH
-  remote: ../dartsduino_games/dartsduino-games-x01
+  remote: ../dartsduino-games-x01
   specs:
     dartsduino-games-x01 (0.0.1)
 
