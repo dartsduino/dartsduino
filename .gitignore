@@ -29,3 +29,6 @@ doc/
 .DS_Store
 .idea
 .secret
+
+# Ignore sound files for darts-ui.
+public/sounds
