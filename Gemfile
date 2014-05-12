@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 ruby '2.1.1'
-#ruby-gemset=rails_4_0_3
+#ruby-gemset=rails_4_1_1
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.3'
+gem 'rails', '4.1.1'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
@@ -34,8 +34,10 @@ group :test do
   gem 'factory_girl_rails'
 end
 
-# Use device for account management
+# Use device and omniauth for account management
 gem 'devise'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
