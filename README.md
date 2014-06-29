@@ -1,7 +1,5 @@
 # dartsduino
 
-[![dartsduino](http://img.youtube.com/vi/sHt_5in-ziQ/0.jpg)](http://www.youtube.com/watch?v=sHt_5in-ziQ)
-
 
 ## License
 
